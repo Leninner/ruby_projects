@@ -1,1 +1,1 @@
-Proyectos propuestos por The Odin Project
+Proyectos propuestos con el lenguaje de Ruby.
