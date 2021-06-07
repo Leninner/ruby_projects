@@ -9,7 +9,7 @@ class Computer
     def create (filename)
         time = Time.now
         @files[filename] = time
-        p "Hola #{@username}, la hora actual es #{time} y tu contraseña es: #{@password}"
+        print "Hola #{@username}, la hora actual es #{time} y tu contraseña es: #{@password}"
     end
     def Computer.get_users
         return @@users
@@ -17,3 +17,5 @@ class Computer
 end
 
 my_computer = Computer.new("Lenin", 65408489156)
+
+my_computer.create ("one") #Sirve para llamar a los distintos métodos dentro de la clase
