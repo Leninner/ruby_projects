@@ -14,6 +14,11 @@ roman_mapping = {
     1 => "I"
 }
 
+
+# Tengo que recorrer por cada llave del hash para poder ir insertando los valores a nuestro parámetro result
+# que tiene un valor por defecto vació
+#Luego, podemos seguir llamando al método si el cociente sigue siendo mayor a 0
+
 def integer_to_roman(roman_mapping, number, result = "")
     return result if number == 0
     roman_mapping.keys.each do |divisor|
