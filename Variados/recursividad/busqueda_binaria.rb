@@ -1,7 +1,10 @@
+#PARA CALCULAR EL NÚMERO DE VECES QUE PASOS QUE NECESITAMOS PARA ENCONTRAR UN ELEMENTO HACEMOS USO DE LA FÓRMULA: "Logaritmo en base
+#2 de N => LOG2(N)"
+
 def binary_search(target, list)
     position = (list.count / 2).floor
     mid = list[position]
- 
+
     return mid if mid == target
     #Si el número de la mitad es menor al target entonces llamamos de nuevo a la función con la posición aumentada en 1 y el número de elementos de la lista partido a 2
     #Caso contrario llamamos de nuevo a la función con el método slice desde 0 hasta la lista partida a la mitad.
