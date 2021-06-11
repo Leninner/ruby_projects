@@ -1,6 +1,6 @@
 #PARA CALCULAR EL NÚMERO DE VECES QUE PASOS QUE NECESITAMOS PARA ENCONTRAR UN ELEMENTO HACEMOS USO DE LA FÓRMULA: "Logaritmo en base
 #2 de N => LOG2(N)"
-
+## Para utilizar la búsqueda binaria del método "divide and conquer" necesitamos tener el arreglo ordenado
 def binary_search(target, list)
     position = (list.count / 2).floor
     mid = list[position]
